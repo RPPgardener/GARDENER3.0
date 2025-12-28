@@ -1,0 +1,52 @@
+// frontend/public/manifest.json
+{
+  "name": "GARDENER3.0 - Plataforma Profesional de Jardinería",
+  "short_name": "GARDENER",
+  "description": "Sistema profesional de gestión de jardinería con IA integrada para profesionales del sector",
+  "author": "GPT-RPP",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#059669",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "business", "utilities"],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nuevo Trabajo",
+      "short_name": "Trabajo",
+      "description": "Crear un nuevo trabajo",
+      "url": "/trabajos/nuevo",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Asistente IA",
+      "short_name": "IA",
+      "description": "Consultar asistente IA",
+      "url": "/asistente",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
